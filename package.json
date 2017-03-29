@@ -1,0 +1,20 @@
+{
+  "name": "d01-logger",
+  "version": "1.0.0",
+  "description": "District01 Node.js logger",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasBormans/d01-logger.git"
+  },
+  "keywords": [],
+  "author": "Thomas Bormans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasBormans/d01-logger/issues"
+  },
+  "homepage": "https://github.com/ThomasBormans/d01-logger#readme",
+  "dependencies": {
+    "winston": "2.3.1"
+  }
+}
