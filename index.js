@@ -3,8 +3,8 @@ var winston = require("winston");
 var logger = new winston.Logger({
     transports: [
         new winston.transports.File({
-            level: 'error',
-            filename: './logs/error.log',
+            level: "error",
+            filename: "./" + logDir + "error.log",
             handleExceptions: true,
             json: true,
             maxsize: 50000000,
@@ -12,7 +12,7 @@ var logger = new winston.Logger({
             colorize: false
         }),
         new winston.transports.Console({
-            level: 'debug',
+            level: "debug",
             handleExceptions: true,
             json: false,
             colorize: true
