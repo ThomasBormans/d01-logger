@@ -1,4 +1,10 @@
 var winston = require("winston");
+var fs = require("fs");
+
+var logDir = "logs/";
+if (!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir);
+}
 
 var logger = new winston.Logger({
     transports: [
