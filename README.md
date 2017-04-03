@@ -41,5 +41,16 @@ logger.error("Some error message.");
 ```
 The output in the terminal is colorized for easier debugging.
 
+Last but not least, you can also add a Slack integration. It is important to load the Slack configuration **before** using anything from the logger. The webhook for Slack is required, the channel is optional. If no channel was added, the _#general_ channel will be used. You can include the init as follows:
+```js
+logger.init({
+    webhook: "https://hooks.slack.com/services/xxx/yyy/zzz",
+    channel: "#my-custom-channel"
+});
+```
+
+**Please note**: The channel needs to be prefixed with a _#_.
+
+
 [//]: #
    [winston]: <https://www.npmjs.com/package/winston>
