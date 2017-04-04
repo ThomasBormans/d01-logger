@@ -1,6 +1,6 @@
 {
   "name": "d01-logger",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "District01 Node.js logger",
   "main": "index.js",
   "repository": {
